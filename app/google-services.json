@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "828266486123",
+    "firebase_url": "https://off-k-a4fb2.firebaseio.com",
+    "project_id": "off-k-a4fb2",
+    "storage_bucket": "off-k-a4fb2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828266486123:android:5ce9014f5b65d0eaf9542e",
+        "android_client_info": {
+          "package_name": "com.gocheck.com.off_k"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "828266486123-3lbgl5pojq3ltvv4degq335aovc7nutn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gocheck.com.off_k",
+            "certificate_hash": "f4e90688ecbe6233dce44deda359b7315448fd95"
+          }
+        },
+        {
+          "client_id": "828266486123-5bnjvjdmjhjo42dgls3827ut57bp94e9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOARKZtenN3dt8Ye-2azY2vHelCd3pdtU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "828266486123-5bnjvjdmjhjo42dgls3827ut57bp94e9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

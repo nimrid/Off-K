@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Agent.AgentRegisterActivity">
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:id="@+id/seller_img"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/seller_reg_img"/>
+
+    <TextView
+        android:layout_below="@+id/seller_img"
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registration form"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/agent_name"
+        android:layout_width="match_parent"
+        android:layout_below="@id/title"
+        android:hint="Name"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:inputType="text"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/agent_phone"
+        android:layout_width="match_parent"
+        android:layout_below="@id/agent_name"
+        android:hint="Phone Number"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:inputType="number"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/agent_email_login"
+        android:layout_width="match_parent"
+        android:layout_below="@id/agent_phone"
+        android:hint="Email"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/agent_address"
+        android:layout_width="match_parent"
+        android:layout_below="@id/agent_email_login"
+        android:hint="Address"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/agent_password_login"
+        android:layout_width="match_parent"
+        android:layout_below="@id/agent_address"
+        android:hint="Password"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:inputType="textPassword"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/confirm_agent_password"
+        android:layout_width="match_parent"
+        android:layout_below="@id/agent_password_login"
+        android:hint="Confirm Password"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:inputType="textPassword"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/agent_register"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:background="@android:color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/confirm_agent_password"/>
+
+    <Button
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/agent_already_have_acc"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_green_dark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Already have account"
+        android:layout_centerHorizontal="true"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Admin.AdminHomeActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add New Home"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/bungalow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bungalow"
+        android:textSize="32sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/container_house"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Single room"
+        android:textSize="32sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/duplex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Duplex"
+        android:textSize="32sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/flat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Flat"
+        android:textSize="32sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/town_house"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Town House"
+        android:textSize="32sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/wooden_house"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wooden House"
+        android:textSize="32sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"/>
+
+</LinearLayout>

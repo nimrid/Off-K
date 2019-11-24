@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/logo"
+        android:layout_marginTop="80dp"
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:src="@drawable/app_logo" />
+
+    <TextView
+        android:textColor="@android:color/holo_green_light"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/logo_text"
+        android:layout_below="@id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Off-K"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="5dp"
+        android:textSize="36sp"/>
+
+    <TextView
+        android:textColor="@android:color/holo_green_light"
+        android:layout_centerHorizontal="true"
+        android:textStyle="italic"
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Find Affordable"
+        android:textSize="24dp"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@id/logo_text"/>
+
+    <TextView
+        android:textColor="@android:color/holo_green_light"
+        android:layout_centerHorizontal="true"
+        android:textStyle="italic"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:textSize="16sp"
+        android:text="Accommodation"/>
+
+    <ImageView
+        android:id="@+id/admin_image_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_lightbulb_outline_black_24dp"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="5dp"/>
+
+    <ProgressBar
+        android:id="@+id/login_progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"/>
+
+    <EditText
+        android:id="@+id/login_phone_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dp"
+        android:hint="Email"
+        android:inputType="text"
+        android:padding="15dp"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/login_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_phone_num"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="15dp"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:padding="15dp"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:id="@+id/login_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@id/login_password"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="20dp">
+
+    <com.rey.material.widget.CheckBox
+        android:id="@+id/remember_me"
+        style="@style/Material.Drawable.CheckBox"
+        android:text="remember me"
+        app:cbd_strokeColor="@color/colorPrimaryDark"
+        android:gravity="center_vertical"
+        android:textSize="12sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="forgot password"
+            android:layout_marginLeft="120dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_linear_layout"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="Login"/>
+
+    <TextView
+        android:visibility="gone"
+        android:layout_marginTop="3dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/login_admin"
+        android:text="Login Admin"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/login_btn"/>
+
+    <TextView
+        android:layout_marginBottom="15dp"
+        android:layout_alignParentBottom="true"
+        android:visibility="invisible"
+        android:layout_marginTop="5dp"
+        android:id="@+id/not_admin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Not Admin"
+        android:layout_marginLeft="15dp"
+        android:textSize="18sp"/>
+
+<!--    <TextView-->
+<!--        android:layout_marginTop="5dp"-->
+<!--        android:id="@+id/admin"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/login_btn"-->
+<!--        android:layout_marginLeft="300dp"-->
+<!--        android:text="Admin"-->
+<!--        android:textSize="18sp"/>-->
+
+</RelativeLayout>
